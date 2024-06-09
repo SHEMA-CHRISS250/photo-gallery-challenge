@@ -1,0 +1,84 @@
+.intro {
+    width: 350px;
+    height: 250px;
+    position: relative; /* Change to relative */
+    margin: auto; /* Center horizontally */
+    padding: 70px;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 1;
+    background-color: #B22222;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px; /* Add margin to create space between intro and gallery */
+}
+
+.thumbnail {
+    position: relative;
+    width: calc(20.222% - 2px); /* Adjust width to 3 columns layout with no space */
+    height: 350px;
+    overflow: hidden;
+    margin: 0; /* Remove margin to eliminate space between thumbnails */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.thumbnail .image-container {
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.details {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hover-details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.thumbnail:hover .hover-details {
+    opacity: 1;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .thumbnail {
+        width: calc(50% - 2px); /* 2 columns layout for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .thumbnail {
+        width: calc(100% - 2px); /* Single column layout for small screens */
+    }
+}
