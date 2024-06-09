@@ -31,3 +31,11 @@ Welcome to the Interactive Photo Gallery! This project showcases stunning photog
 4. Nature - Location: Egypt
    - Thumbnail: `Images/nature.jpg`
    - Full-Size: `Images/nature_fullsize.jpg`
+     
+     ## transformString
+This transformation is designed to manipulate strings based on their length, and here how it's works
+
+1. If the length of the input string is divisible by 15, it reverses the string and replaces each character with its corresponding ASCII code.
+2. If the length is divisible by 3, it simply reverses the entire string.
+3. If the length is divisible by 5, it replaces each character with its ASCII code.
+4. If none of the above conditions apply, the function returns the original string.  
