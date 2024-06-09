@@ -16,21 +16,21 @@ Welcome to the Interactive Photo Gallery! This project showcases stunning photog
 
 ## Images
 
-1. Flower- Location: Rwanda
-   - Thumbnail: `Images/flower.jpg`
-   - Full-Size: `Images/flower_fullsize.jpg`
+1. Fox- Location: India
+   - Thumbnail: `Images/Fox.jpg`
+   - Full-Size: `Images/Fox_fullsize.jpg`
 
-2. Sunlight Over the Sea - Location: Tanganyika
-   - Thumbnail: `Images/sunlight over the sea.jpg`
-   - Full-Size: `Images/sunlight over the sea_fullsize.jpg`
+2. Whale - Location: South Africa
+   - Thumbnail: `Images/Whale.jpg`
+   - Full-Size: `Images/Whale_fullsize.jpg`
 
-3. Brown Dog - Location: Canada
-   - Thumbnail: `Images/brown.jpg`
-   - Full-Size: `Images/brown_fullsize.jpg`
+3. Babbon - Location: South Africa
+   - Thumbnail: `Images/Babbon.jpg`
+   - Full-Size: `Images/Babbon_fullsize.jpg`
 
-4. Nature - Location: Egypt
-   - Thumbnail: `Images/nature.jpg`
-   - Full-Size: `Images/nature_fullsize.jpg`
+4. Deer - Location: Amazon
+   - Thumbnail: `Images/ Deer.jpg`
+   - Full-Size: `Images/ Deer_fullsize.jpg`
      
      ## transformString
 This transformation is designed to manipulate strings based on their length, and here how it's works
